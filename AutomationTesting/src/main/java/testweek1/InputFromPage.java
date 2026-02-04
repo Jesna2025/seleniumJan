@@ -1,5 +1,7 @@
 package testweek1;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -29,12 +31,17 @@ public class InputFromPage extends Base{
 	public void helloWorld()
 	{
 		driver.navigate().to("https://selenium.qabible.in/simple-form-demo.php");
-		WebElement hello=driver.findElement(By.id("single-input-field"));
+		/*WebElement hello=driver.findElement(By.id("single-input-field"));
 		hello.sendKeys("HelloWorld");
 		WebElement hell=driver.findElement(By.id("value-a"));
 		hell.sendKeys("HelloWorld");
 		WebElement he=driver.findElement(By.id("value-b"));
-		he.sendKeys("HelloWorld");
+		he.sendKeys("HelloWorld");*/
+		List<WebElement> type=driver.findElements(By.className("form-control"));
+		for(WebElement mo:type)
+		{
+			mo.sendKeys("Hello");
+		}
 	}
 	
 

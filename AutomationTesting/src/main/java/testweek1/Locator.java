@@ -67,6 +67,19 @@ public void xpath()
     
 }
 
+public void axesMethod()//show Message 
+{
+	WebElement child=driver.findElement(By.xpath("//a[@class='navbar-brand']//child::img"));
+	WebElement parent=driver.findElement(By.xpath("//button[@id='button-one']//parent::form"));
+	WebElement following=driver.findElement(By.xpath("//button[@id='button-one']//following::div[@id='message-one']"));
+	WebElement preceding=driver.findElement(By.xpath("//button[@id='button-one']//preceding::label[@for='inputEmail4']"));
+	WebElement ancestor=driver.findElement(By.xpath("//button[@id='button-one']//ancestor::div[@class='row']"));
+	WebElement descend=driver.findElement(By.xpath("//form[@method='POST']//descendant::div[@id='message-one']"));
+	WebElement index=driver.findElement(By.xpath("(//input[@type='text'])[1]"));
+}
+
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

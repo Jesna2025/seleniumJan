@@ -28,8 +28,8 @@ public class AlertHandling extends Base {
 		entermessagealert.click();
 		//Entering message on alert box
 		driver.switchTo().alert().sendKeys("HeLLOGRRRR");
-		//I couldnot see HeLLOGRRRR message on the alert ??
-		//driver.switchTo().alert().accept();
+		//HeLLOGRRRR message on the bottom
+		driver.switchTo().alert().accept();
 	}
 
 	public static void main(String[] args) {

@@ -16,7 +16,8 @@ public class CheckboxAndRadioButton extends Base{
 		
 	}
 	//multiple fields --check box selection
-	public void findElementsEx()
+	//how to check a particular check box among a group of check box 
+	public void findElementsExCheckBoxes()
 	{
 		//more than one elements - Use FindElements
 		driver.navigate().to("https://selenium.qabible.in/check-box-demo.php");
@@ -43,8 +44,8 @@ public class CheckboxAndRadioButton extends Base{
 		CheckboxAndRadioButton cb=new CheckboxAndRadioButton();
 		cb.browserInitialization();
 		//cb.checkboxDemo();
-		//cb.findElementsEx();
-		cb.radioButtonDemo();
+		cb.findElementsExCheckBoxes();
+		//cb.radioButtonDemo();
 		
 	}
 

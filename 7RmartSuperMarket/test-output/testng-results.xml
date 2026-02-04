@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T10:36:15 EST" name="Suite" finished-at="2026-02-04T10:36:40 EST" duration-ms="24669">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T10:36:15 EST" name="Chrome Test" finished-at="2026-02-04T10:36:27 EST" duration-ms="11320">
+      <class name="testscript.AdminUserTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AdminUserTest@33efa7d4]" started-at="2026-02-04T10:36:15 EST" name="beforeMethod" finished-at="2026-02-04T10:36:24 EST" duration-ms="8291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUsercanAddNewUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserTest@33efa7d4]" started-at="2026-02-04T10:36:24 EST" name="verifyUsercanAddNewUser" description="Adding new user to Admin Page" finished-at="2026-02-04T10:36:26 EST" duration-ms="2928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsercanAddNewUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserTest@33efa7d4]" started-at="2026-02-04T10:36:26 EST" name="afterMethod" finished-at="2026-02-04T10:36:27 EST" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsercanAddNewUser status=SUCCESS method=AdminUserTest.verifyUsercanAddNewUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserTest@33efa7d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.AdminUserTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2026-02-04T10:36:32 EST" name="Firefox Test" finished-at="2026-02-04T10:36:40 EST" duration-ms="8298">
+      <class name="testscript.AdminUserTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AdminUserTest@2df2d46d]" started-at="2026-02-04T10:36:32 EST" name="beforeMethod" finished-at="2026-02-04T10:36:37 EST" duration-ms="5130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUsercanAddNewUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserTest@2df2d46d]" started-at="2026-02-04T10:36:37 EST" name="verifyUsercanAddNewUser" description="Adding new user to Admin Page" finished-at="2026-02-04T10:36:39 EST" duration-ms="2754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsercanAddNewUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AdminUserTest@2df2d46d]" started-at="2026-02-04T10:36:39 EST" name="afterMethod" finished-at="2026-02-04T10:36:40 EST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUsercanAddNewUser status=SUCCESS method=AdminUserTest.verifyUsercanAddNewUser(java.lang.String,java.lang.String)[pri:0, instance:testscript.AdminUserTest@2df2d46d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.AdminUserTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
+</testng-results>

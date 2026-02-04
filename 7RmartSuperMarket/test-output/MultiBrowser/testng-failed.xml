@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [MultiBrowser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Safari Test(failed)">
+    <parameter name="Browser" value="SAFARI"/>
+    <classes>
+      <class name="testscript.AdminUserTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyUsercanAddNewUser"/>
+        </methods>
+      </class> <!-- testscript.AdminUserTest -->
+    </classes>
+  </test> <!-- Safari Test(failed) -->
+</suite> <!-- Failed suite [MultiBrowser] -->
